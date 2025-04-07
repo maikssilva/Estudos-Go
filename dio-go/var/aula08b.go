@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var x = "Hello, World!"
-
 func main() {
+	var x [5]int
+	x[4] = 80
 	fmt.Println(x)
 }
